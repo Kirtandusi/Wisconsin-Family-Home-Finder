@@ -14,7 +14,7 @@ const MainPage = () => {
 
   return (
     <div className="w-full h-full relative">
-      <WisconsinMapMain finalCity={finalCity} />
+      <WisconsinMapMain finalCity={finalCity} tryAgain={tryAgain} />
       <HandleJson rankingArray={rankingArray} />
       <motion.div
         className="flex flex-row h-full absolute top-0"
@@ -31,7 +31,11 @@ const MainPage = () => {
           />
         )}
         {!tryAgain && finalCity && (
-          <FinalCity setTryAgain={setTryAgain} finalCity={finalCity} />
+          <FinalCity
+            setTryAgain={setTryAgain}
+            finalCity={finalCity}
+            tryAgain={tryAgain}
+          />
         )}
         <SideMenuButton setPressed={setPressed} pressed={pressed} />
       </motion.div>
