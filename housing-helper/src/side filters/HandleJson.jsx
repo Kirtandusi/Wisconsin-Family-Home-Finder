@@ -14,7 +14,8 @@ const HandleJson = ({ rankingArray, setFinalCity }) => {
           user_quality: rankingArray[0],
           user_budget: rankingArray[3],
         });
-        setFinalCity(response.data);
+        let responseData = response.data;
+        setFinalCity(responseData[0]);
       } catch (error) {
         setError(error);
       }

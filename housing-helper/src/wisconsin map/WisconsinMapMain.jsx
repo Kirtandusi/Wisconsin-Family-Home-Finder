@@ -4,7 +4,7 @@ import "mapbox-gl/dist/mapbox-gl.css";
 import MarkerPopup from "./MarkerPopup";
 import city_lat_lng from "./city_lat_lng.json";
 
-const WisconsinMapMain = ({ finalCity }) => {
+const WisconsinMapMain = ({ finalCity, tryAgain }) => {
   const [cityLatLong, setCityLatLong] = useState(null);
 
   async function getLatLong() {
@@ -55,7 +55,7 @@ const WisconsinMapMain = ({ finalCity }) => {
           onViewportChange={(nextViewport) => setViewport(nextViewport)}
           maxBounds={maxBounds}
         >
-          {finalCity && (
+          {!tryAgain && finalCity && (
             <MarkerPopup
               lat={cityLatLong[0]}
               long={cityLatLong[1]}
