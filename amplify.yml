@@ -8,19 +8,19 @@ frontend:
     build:
       commands: npm run build
   artifacts:
-    baseDirectory: housing-helper
+    baseDirectory: /housing-helper
     files:
-      - '**/*'
+      - "**/*"
   cache:
     paths:
       - node_modules/**/*
   customHeaders:
     # Configures custom headers for different file types
-    - pattern: '*.js'
+    - pattern: "*.js"
       headers:
         - key: Content-Type
           value: application/javascript
-    - pattern: '*.jsx'
+    - pattern: "*.jsx"
       headers:
         - key: Content-Type
           value: application/javascript
