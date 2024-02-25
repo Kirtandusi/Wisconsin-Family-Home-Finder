@@ -1,0 +1,520 @@
+[33mcommit e6c10cc352157199a923f358e203811b2c315e7d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mchange[m[33m, [m[1;32mmain[m[33m)[m
+Merge: f0c4f801 3662b9e4
+Author: markstanl <markgstanley1@gmail.com>
+Date:   Sun Feb 25 10:02:55 2024 -0600
+
+    Merge branch 'main' of https://github.com/Kirtandusi/Wisconsin-Family-Home-Finder
+
+[33mcommit 3662b9e4cb55ce1b64a1d03d6888f71c78b51d66[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 07df01ba 967da575
+Author: Kirtan Dusi <67548970+Kirtandusi@users.noreply.github.com>
+Date:   Sun Feb 25 10:00:34 2024 -0600
+
+    Merge branch 'main' of https://github.com/Kirtandusi/Wisconsin-Family-Home-Finder
+
+[33mcommit 07df01babb88407fdf8b9eee84fb0d26c00193c6[m
+Author: Kirtan Dusi <67548970+Kirtandusi@users.noreply.github.com>
+Date:   Sun Feb 25 10:00:28 2024 -0600
+
+    changed base
+
+[33mcommit f0c4f80107eef86598834f97a7d500537f054c3b[m
+Author: markstanl <markgstanley1@gmail.com>
+Date:   Sun Feb 25 10:00:17 2024 -0600
+
+    pushing a version with a changed gitignore
+
+[33mcommit 967da5750a569b60855880090b11eb8ca680a81a[m[33m ([m[1;32mtest[m[33m)[m
+Merge: 8e50605a 6fe802e3
+Author: markstanl <markgstanley1@gmail.com>
+Date:   Sun Feb 25 09:57:22 2024 -0600
+
+    Merge branch 'main' of https://github.com/Kirtandusi/Wisconsin-Family-Home-Finder
+
+[33mcommit 8e50605acbdfd6377a7afde6a755b36f3c04ef3f[m
+Author: markstanl <markgstanley1@gmail.com>
+Date:   Sun Feb 25 09:57:17 2024 -0600
+
+    commit before storm
+
+[33mcommit 6fe802e33d37cfceb6e5d344b435eca91989b116[m
+Merge: 656e3db8 287443e4
+Author: Kirtan Dusi <67548970+Kirtandusi@users.noreply.github.com>
+Date:   Sun Feb 25 09:44:22 2024 -0600
+
+    Merge branch 'main' of https://github.com/Kirtandusi/Wisconsin-Family-Home-Finder
+
+[33mcommit 656e3db841e11d1c0d67cf7ec77966ab7347350c[m
+Author: Kirtan Dusi <67548970+Kirtandusi@users.noreply.github.com>
+Date:   Sun Feb 25 09:44:15 2024 -0600
+
+    amplify changes
+
+[33mcommit 287443e4f1f1de3e855660f58eb54085948b29a0[m
+Merge: 69435bb4 f5dc658e
+Author: markstanl <markgstanley1@gmail.com>
+Date:   Sun Feb 25 08:46:27 2024 -0600
+
+    Merge branch 'main' of https://github.com/Kirtandusi/Wisconsin-Family-Home-Finder
+
+[33mcommit 69435bb4f03b4c2ed6f9cd00901c848aded2b3d9[m
+Author: markstanl <markgstanley1@gmail.com>
+Date:   Sun Feb 25 08:46:12 2024 -0600
+
+    whatever I worked on
+
+[33mcommit f5dc658ed8909fb8e513016d777d31c58b8e6be9[m
+Author: Ignas Dauksys <ignasdauksys@protonmail.com>
+Date:   Sun Feb 25 01:27:24 2024 -0600
+
+    the john
+
+[33mcommit 3f563011330731e1ad6b7356be0778a4bc245c0b[m
+Author: Kirtan Dusi <67548970+Kirtandusi@users.noreply.github.com>
+Date:   Sun Feb 25 01:22:52 2024 -0600
+
+    changed homepage again
+
+[33mcommit a6509dbcf5af9b2d7be2e5f4a4573bc2946408be[m
+Author: Kirtan Dusi <67548970+Kirtandusi@users.noreply.github.com>
+Date:   Sun Feb 25 01:21:16 2024 -0600
+
+    changed homepage
+
+[33mcommit 44be07747488d053eda06da0aa80879971050124[m
+Author: Kirtan Dusi <67548970+Kirtandusi@users.noreply.github.com>
+Date:   Sun Feb 25 01:05:35 2024 -0600
+
+    fix again?
+
+[33mcommit b273ff982b135fed6800a03317a6c8fc068a83d7[m
+Author: Kirtan Dusi <67548970+Kirtandusi@users.noreply.github.com>
+Date:   Sun Feb 25 00:56:51 2024 -0600
+
+    adsf
+
+[33mcommit 593e04318bb4cec0b37350756c6e2897a21d48a3[m
+Merge: 41a3f7b6 713ea47e
+Author: awu1928 <ahwu@wisc.edu>
+Date:   Sun Feb 25 00:49:19 2024 -0600
+
+    Merge branch 'main' of https://github.com/Kirtandusi/Wisconsin-Family-Home-Finder
+
+[33mcommit 41a3f7b69936bfb8c5c0bb6722725b73b3614171[m
+Author: awu1928 <ahwu@wisc.edu>
+Date:   Sun Feb 25 00:49:12 2024 -0600
+
+    city_lat_lng.json
+
+[33mcommit 713ea47e004ec04ddbf698458656e34a18dad7b0[m
+Author: Kirtan Dusi <67548970+Kirtandusi@users.noreply.github.com>
+Date:   Sun Feb 25 00:44:39 2024 -0600
+
+    added amplify.yml
+
+[33mcommit 97d6223baaa5bc86494c08a4b472b87046a4a6a0[m
+Merge: 2f1fb365 61bf2c34
+Author: Kirtan Dusi <67548970+Kirtandusi@users.noreply.github.com>
+Date:   Sun Feb 25 00:33:14 2024 -0600
+
+    Merge branch 'main' of https://github.com/Kirtandusi/Wisconsin-Family-Home-Finder
+
+[33mcommit 2f1fb36516ed8d6577437a18c09d0229fc74a512[m
+Author: Kirtan Dusi <67548970+Kirtandusi@users.noreply.github.com>
+Date:   Sun Feb 25 00:33:09 2024 -0600
+
+    aws deployment
+
+[33mcommit 61bf2c34bf4a8bbf46c9d06d01734f7cac5af256[m
+Author: awu1928 <ahwu@wisc.edu>
+Date:   Sun Feb 25 00:09:23 2024 -0600
+
+    added city_lat_lng.csv and updates to test.rmd
+
+[33mcommit 4b8ef5e924d7166467e31e2b001bd3681233c10f[m
+Merge: 6f5053d2 fcd71a17
+Author: markstanl <markgstanley1@gmail.com>
+Date:   Sat Feb 24 23:56:33 2024 -0600
+
+    Merge branch 'main' of https://github.com/Kirtandusi/Wisconsin-Family-Home-Finder
+
+[33mcommit fcd71a17634e2f398653da55d5cf077801a5c503[m
+Author: Kirtan Dusi <67548970+Kirtandusi@users.noreply.github.com>
+Date:   Sat Feb 24 23:53:24 2024 -0600
+
+    spacing 11:53 PM
+
+[33mcommit 6f5053d25c0b21d8971567324cec1b26d408648c[m
+Author: markstanl <markgstanley1@gmail.com>
+Date:   Sat Feb 24 23:53:06 2024 -0600
+
+    added the long lat csv
+
+[33mcommit d529eb4509f0396d780433e027ac8b752caf0e9e[m
+Author: Kirtan Dusi <67548970+Kirtandusi@users.noreply.github.com>
+Date:   Sat Feb 24 23:52:59 2024 -0600
+
+    get_city fixed 11:52 PM
+
+[33mcommit 2ca4b7fa291049b4b550807cb76d595664b78970[m
+Author: Kirtan Dusi <67548970+Kirtandusi@users.noreply.github.com>
+Date:   Sat Feb 24 23:46:23 2024 -0600
+
+    new app.py updates 11:46 PM
+
+[33mcommit f2e37ec72d6864d9d5df24dd269419fd9e6fc531[m
+Author: Kirtan Dusi <67548970+Kirtandusi@users.noreply.github.com>
+Date:   Sat Feb 24 23:36:12 2024 -0600
+
+    made getCity
+
+[33mcommit d76bd36ef4542d5f56a02257d6651e9ca0be7217[m
+Merge: 6df4798d 02d42a85
+Author: Kirtan Dusi <67548970+Kirtandusi@users.noreply.github.com>
+Date:   Sat Feb 24 23:26:06 2024 -0600
+
+    Merge branch 'main' of https://github.com/Kirtandusi/Wisconsin-Family-Home-Finder
+
+[33mcommit 02d42a85113fc81a4821401b8a18462bdbde26e6[m
+Author: markstanl <markgstanley1@gmail.com>
+Date:   Sat Feb 24 23:24:47 2024 -0600
+
+    Added cities.py
+
+[33mcommit 6df4798d065f2113069fc371d95b2395500fbfe1[m
+Author: Kirtan Dusi <67548970+Kirtandusi@users.noreply.github.com>
+Date:   Sat Feb 24 23:24:17 2024 -0600
+
+    FINISHED APP.PY
+
+[33mcommit 878f013b6dfc33ff3099e68838687be56f43c6d7[m
+Author: awu1928 <ahwu@wisc.edu>
+Date:   Sat Feb 24 23:04:40 2024 -0600
+
+    city list added
+
+[33mcommit c7f7bafbfedcdc0616b1181ed0830b845ed1aca2[m
+Author: markstanl <markgstanley1@gmail.com>
+Date:   Sat Feb 24 22:38:46 2024 -0600
+
+    John
+
+[33mcommit 2f5ac0bbf4958380e5f6f8252bfdc979eb214105[m
+Author: markstanl <markgstanley1@gmail.com>
+Date:   Sat Feb 24 22:22:43 2024 -0600
+
+    Fixed boundaries
+
+[33mcommit df606245b96fff7f9a53ec63fb568db8c6678b19[m
+Merge: d0232202 5899437a
+Author: markstanl <markgstanley1@gmail.com>
+Date:   Sat Feb 24 21:42:43 2024 -0600
+
+    Merge branch 'main' of https://github.com/Kirtandusi/Wisconsin-Family-Home-Finder
+
+[33mcommit d0232202213c87a6cd4d8dfe324f163c231d98d7[m
+Author: markstanl <markgstanley1@gmail.com>
+Date:   Sat Feb 24 21:42:36 2024 -0600
+
+    Finished details about th eifnal page
+
+[33mcommit 5899437a1763485ac1a2eecd54c468b9ddd291be[m
+Author: awu1928 <ahwu@wisc.edu>
+Date:   Sat Feb 24 21:32:12 2024 -0600
+
+    changes to test.rmd and combinied csv
+
+[33mcommit 86d02104669dd2a349174f9c7a29b1c043b0de85[m
+Merge: 2432817d 011fcff6
+Author: awu1928 <ahwu@wisc.edu>
+Date:   Sat Feb 24 21:31:02 2024 -0600
+
+    Merge branch 'main' of https://github.com/Kirtandusi/Wisconsin-Family-Home-Finder
+
+[33mcommit 2432817d4ed68dfbc6c21977b51d27f7c48f2885[m
+Author: awu1928 <ahwu@wisc.edu>
+Date:   Sat Feb 24 21:30:55 2024 -0600
+
+    working print stats method in test.py
+
+[33mcommit 011fcff6529085f9a454cee794f87ff3cf0d4df1[m
+Author: Kirtan Dusi <67548970+Kirtandusi@users.noreply.github.com>
+Date:   Sat Feb 24 21:17:53 2024 -0600
+
+    app.py updates
+
+[33mcommit efb686aa30d609ab73400222f57134fbe0f2acff[m
+Author: awu1928 <ahwu@wisc.edu>
+Date:   Sat Feb 24 20:07:37 2024 -0600
+
+    added example
+
+[33mcommit 2a15bdd6bebfccdc8033716059b0c9c1e1b96526[m
+Merge: e33d9946 e2667756
+Author: markstanl <markgstanley1@gmail.com>
+Date:   Sat Feb 24 19:45:50 2024 -0600
+
+    Merge branch 'main' of https://github.com/Kirtandusi/Wisconsin-Family-Home-Finder
+
+[33mcommit e33d99466e6ff9296d818dc8a4c2bf1d2baf72e5[m
+Author: markstanl <markgstanley1@gmail.com>
+Date:   Sat Feb 24 19:45:47 2024 -0600
+
+    Added temporary max bounds for Ignas to mess with in the future
+
+[33mcommit e26677568ac5cad843cc9f197bca6cb935817157[m
+Author: Kirtan Dusi <67548970+Kirtandusi@users.noreply.github.com>
+Date:   Sat Feb 24 17:51:31 2024 -0600
+
+    FIXED!
+
+[33mcommit 29a76586a7359bf423d2b09d88391d073df76e6d[m
+Author: markstanl <markgstanley1@gmail.com>
+Date:   Sat Feb 24 17:49:26 2024 -0600
+
+    Better looking beauty
+
+[33mcommit de4a97a7d256474a673c38e33bb7c0896012c00f[m
+Author: awu1928 <ahwu@wisc.edu>
+Date:   Sat Feb 24 17:24:06 2024 -0600
+
+    updates to test.rmd and combined csv
+
+[33mcommit d1c4353d779437783f394c10f0ecdf9be76e4740[m
+Author: Kirtan Dusi <67548970+Kirtandusi@users.noreply.github.com>
+Date:   Sat Feb 24 17:22:30 2024 -0600
+
+    changed to sql
+
+[33mcommit 8cac9783ae59a632373c515a8f55f03f82c8ebec[m
+Author: Ignas Dauksys <ignasdauksys@protonmail.com>
+Date:   Sat Feb 24 16:56:48 2024 -0600
+
+    ignas' departure code
+
+[33mcommit 6db73bf753337b260e543a3fa9cb94317517192e[m
+Merge: 04170663 0adc8115
+Author: awu1928 <ahwu@wisc.edu>
+Date:   Sat Feb 24 16:43:39 2024 -0600
+
+    Merge branch 'main' of https://github.com/Kirtandusi/Wisconsin-Family-Home-Finder
+
+[33mcommit 04170663ce465e8bfdd277020a7afa222cd40020[m
+Author: awu1928 <ahwu@wisc.edu>
+Date:   Sat Feb 24 16:43:21 2024 -0600
+
+    updates to test.rmd and normalized values to combined csv
+
+[33mcommit 0adc8115c978c878d8808fc20695a3b5446f8547[m
+Merge: b1cade4b 6a03eabc
+Author: Kirtan Dusi <67548970+Kirtandusi@users.noreply.github.com>
+Date:   Sat Feb 24 16:26:22 2024 -0600
+
+    Merge branch 'main' of https://github.com/Kirtandusi/Wisconsin-Family-Home-Finder
+
+[33mcommit b1cade4bc0e478aa4966a3ebbd3d9d9786c7af78[m
+Author: Kirtan Dusi <67548970+Kirtandusi@users.noreply.github.com>
+Date:   Sat Feb 24 16:26:04 2024 -0600
+
+    app.py updated 4:26
+
+[33mcommit 6a03eabc6d4a83404e91ea67eed9fb4540d7650e[m
+Merge: 6dd4a14f cd2ef925
+Author: markstanl <markgstanley1@gmail.com>
+Date:   Sat Feb 24 16:22:26 2024 -0600
+
+    Merge branch 'main' of https://github.com/Kirtandusi/Wisconsin-Family-Home-Finder
+
+[33mcommit 6dd4a14f14db4ce61c9c9eebd82f714dd9e89f14[m
+Author: markstanl <markgstanley1@gmail.com>
+Date:   Sat Feb 24 16:22:19 2024 -0600
+
+    B2b push
+
+[33mcommit cd2ef9256d510828381211ada66d012590483e75[m
+Author: Ignas Dauksys <ignasdauksys@protonmail.com>
+Date:   Sat Feb 24 16:20:56 2024 -0600
+
+    updated goals
+
+[33mcommit e8a1bf6bb98ccee672e2503c035edcfa5b3560ef[m
+Merge: 5e1b45d6 42fb15c8
+Author: markstanl <markgstanley1@gmail.com>
+Date:   Sat Feb 24 16:19:57 2024 -0600
+
+    Merge branch 'main' of https://github.com/Kirtandusi/Wisconsin-Family-Home-Finder
+
+[33mcommit 5e1b45d6fb8cba6072750f12850ccb47a7460fe3[m
+Author: markstanl <markgstanley1@gmail.com>
+Date:   Sat Feb 24 16:18:58 2024 -0600
+
+    Added more boxes and the template for the budget box
+
+[33mcommit 42fb15c8da468841c3fdba009f39ff29f330bb99[m
+Author: Ignas Dauksys <ignasdauksys@protonmail.com>
+Date:   Sat Feb 24 16:16:53 2024 -0600
+
+    Finished the MAPPPP
+
+[33mcommit 9e76c9fd5a60ec2285ec1d3fa19c2a340d0089f5[m
+Author: Kirtan Dusi <67548970+Kirtandusi@users.noreply.github.com>
+Date:   Sat Feb 24 15:22:11 2024 -0600
+
+    asdf
+
+[33mcommit 054c70f37b12c2eb85e28dbe89737365357aedd7[m
+Merge: 9849e3b0 0d609e8f
+Author: markstanl <markgstanley1@gmail.com>
+Date:   Sat Feb 24 15:06:55 2024 -0600
+
+    Merge branch 'main' of https://github.com/Kirtandusi/Wisconsin-Family-Home-Finder
+
+[33mcommit 9849e3b0491670fd32dc86f212c89c3077dbf43a[m
+Author: markstanl <markgstanley1@gmail.com>
+Date:   Sat Feb 24 15:06:48 2024 -0600
+
+    fixed the layering issue with the map and all other contents
+
+[33mcommit 0d609e8f2998530f4119580b88e5f085be50f484[m
+Merge: c36cf314 2b3c6be3
+Author: awu1928 <ahwu@wisc.edu>
+Date:   Sat Feb 24 15:04:02 2024 -0600
+
+    Merge branch 'main' of https://github.com/Kirtandusi/Wisconsin-Family-Home-Finder
+
+[33mcommit c36cf3144b2339d19637a7ccbedd22a26a434870[m
+Author: awu1928 <ahwu@wisc.edu>
+Date:   Sat Feb 24 15:03:53 2024 -0600
+
+    updated test.rmd and combinied csv
+
+[33mcommit 2b3c6be36fc7e912b96e360e6e5a6554c99a22fe[m
+Author: Kirtan Dusi <67548970+Kirtandusi@users.noreply.github.com>
+Date:   Sat Feb 24 15:01:33 2024 -0600
+
+    stuff
+
+[33mcommit fdbfd70571e0fb97cfaf9674b01de837064a18fe[m
+Merge: f2dd237f 45a322b6
+Author: Kirtan Dusi <67548970+Kirtandusi@users.noreply.github.com>
+Date:   Sat Feb 24 14:59:44 2024 -0600
+
+    Merge branch 'main' of https://github.com/Kirtandusi/Wisconsin-Family-Home-Finder
+
+[33mcommit 45a322b6a3baa51203c5a3cce68a6e0c1406562c[m
+Merge: c893dc44 0c9de0e5
+Author: markstanl <markgstanley1@gmail.com>
+Date:   Sat Feb 24 14:59:06 2024 -0600
+
+    Merge branch 'main' of https://github.com/Kirtandusi/Wisconsin-Family-Home-Finder
+
+[33mcommit c893dc4437f1380cc32de1c1f93f7d24d8069663[m
+Author: markstanl <markgstanley1@gmail.com>
+Date:   Sat Feb 24 14:59:00 2024 -0600
+
+    Added the mapboxgl import in the wisconsinmap
+
+[33mcommit 0c9de0e557c28b44213072055a0458ae3764058f[m
+Author: awu1928 <ahwu@wisc.edu>
+Date:   Sat Feb 24 14:56:44 2024 -0600
+
+    added test.rmd and combined csv
+
+[33mcommit e1b479d32febd9545f97e8262ecd35d67f3bd6c9[m
+Merge: 83f6498d 4892e448
+Author: markstanl <markgstanley1@gmail.com>
+Date:   Sat Feb 24 14:56:44 2024 -0600
+
+    Merge branch 'main' of https://github.com/Kirtandusi/Wisconsin-Family-Home-Finder
+
+[33mcommit 4892e44861bbaa92faa821b129f9a7cf37e12f9c[m
+Author: awu1928 <ahwu@wisc.edu>
+Date:   Sat Feb 24 14:55:37 2024 -0600
+
+    readded .gitignore
+
+[33mcommit f2dd237f84b2c6df060fbce5c8791eb25e1fd390[m
+Author: Kirtan Dusi <67548970+Kirtandusi@users.noreply.github.com>
+Date:   Sat Feb 24 14:54:31 2024 -0600
+
+    new gitignore cuz mark deleted it
+
+[33mcommit 83f6498d9b6416643e373089eb4fef95a3dca2d3[m
+Merge: c0b16856 78e4eca7
+Author: markstanl <markgstanley1@gmail.com>
+Date:   Sat Feb 24 14:52:49 2024 -0600
+
+    JOHN
+
+[33mcommit c0b1685618011b19e282ae2b962b5b8c5fab349b[m
+Author: markstanl <markgstanley1@gmail.com>
+Date:   Sat Feb 24 14:50:53 2024 -0600
+
+    JOHN
+
+[33mcommit 78e4eca76a5f32988a0d572c38632741bcd4035e[m
+Author: Ignas Dauksys <ignasdauksys@protonmail.com>
+Date:   Sat Feb 24 14:48:12 2024 -0600
+
+    fixing map
+
+[33mcommit a3e495eacd6d8c9b302a4792d5ed5796bd2e001e[m
+Author: awu1928 <158862188+awu1928@users.noreply.github.com>
+Date:   Sat Feb 24 14:47:43 2024 -0600
+
+    Update crime.csv
+
+[33mcommit 100eb666e2a213938f63b7e3dd05e536dccc8b48[m
+Author: awu1928 <158862188+awu1928@users.noreply.github.com>
+Date:   Sat Feb 24 14:47:26 2024 -0600
+
+    Update education.csv
+
+[33mcommit 8d5f3dd504d73f93d5457e94cecc2b18512811ba[m
+Author: awu1928 <158862188+awu1928@users.noreply.github.com>
+Date:   Sat Feb 24 14:46:56 2024 -0600
+
+    Update employment.csv
+
+[33mcommit b44a6e5b65c5385891c31915753604c32ec5e4fc[m
+Author: awu1928 <158862188+awu1928@users.noreply.github.com>
+Date:   Sat Feb 24 14:46:30 2024 -0600
+
+    Update homeprice.csv
+
+[33mcommit db3544d32feb2f6291ee1343dcb76a6899a2a776[m
+Author: Kirtan Dusi <67548970+Kirtandusi@users.noreply.github.com>
+Date:   Sat Feb 24 14:41:09 2024 -0600
+
+    Add files via upload
+
+[33mcommit bc7664af4df836ca43777c2db0d291c1e89f0b2d[m
+Author: markstanl <markgstanley1@gmail.com>
+Date:   Sat Feb 24 14:17:35 2024 -0600
+
+    Resolved error with ui code and map
+
+[33mcommit 837ce0dfc14c2d5cfc2039eee270c3302cb1fdd6[m
+Merge: 2fbb48ec fb351783
+Author: markstanl <markgstanley1@gmail.com>
+Date:   Sat Feb 24 14:11:15 2024 -0600
+
+    Merge branch 'main' of https://github.com/Kirtandusi/Wisconsin-Family-Home-Finder
+
+[33mcommit fb35178305ed45afae795a7fa100156c1d704bb8[m
+Author: Ignas Dauksys <ignasdauksys@protonmail.com>
+Date:   Sat Feb 24 14:09:18 2024 -0600
+
+    please push
+
+[33mcommit febd81aa04068720510facd7cc51172ca0f2e588[m
+Author: Ignas Dauksys <ignasdauksys@protonmail.com>
+Date:   Sat Feb 24 14:05:11 2024 -0600
+
+    added mapbox
+
+[33mcommit dc420c1a155462eddef67738bb6bd17573bf62da[m
+Author: Ignas Dauksys <ignasdauksys@protonmail.com>
+Date:   Sat Feb 24 12:54:39 2024 -0600
+
+    map making

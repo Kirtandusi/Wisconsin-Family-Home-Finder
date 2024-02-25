@@ -6,7 +6,7 @@ import PriceTextBox from "./PriceTextBox";
 const SideMenu = ({
   rankingArray,
   setRankingArray,
-  setFinalCityName,
+  setFinalCity,
   setTryAgain,
 }) => {
   const [educationRanking, setEducationRanking] = useState(null);
@@ -42,14 +42,14 @@ const SideMenu = ({
           />
         </div>
         <div className="flex flex-col items-center">
-          <p className="text-primary font-bold text-xl">Income</p>
+          <p className="text-primary font-bold text-xl">Employabol</p>
           <OptionButton
             options={[1, 2, 3, 4, 5]}
             setPressed={setIncomeRanking}
           />
         </div>
         <div className="flex flex-col items-center">
-          <p className="text-primary font-bold text-xl">Crime</p>
+          <p className="text-primary font-bold text-xl">Safety</p>
           <OptionButton
             options={[1, 2, 3, 4, 5]}
             setPressed={setCrimeRanking}
@@ -65,7 +65,7 @@ const SideMenu = ({
       </div>
       <Submit
         rankingArray={rankingArray}
-        setFinalCityName={setFinalCityName}
+        setFinalCity={setFinalCity}
         setTryAgain={setTryAgain}
       />
     </div>
