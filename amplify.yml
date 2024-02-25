@@ -14,3 +14,13 @@ frontend:
   cache:
     paths:
       - node_modules/**/*
+  customHeaders:
+    # Configures custom headers for different file types
+    - pattern: '*.js'
+      headers:
+        - key: Content-Type
+          value: application/javascript
+    - pattern: '*.jsx'
+      headers:
+        - key: Content-Type
+          value: application/javascript
