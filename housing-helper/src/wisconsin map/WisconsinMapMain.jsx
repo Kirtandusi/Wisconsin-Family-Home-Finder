@@ -2,17 +2,17 @@ import React, { useState, useEffect } from "react";
 import ReactMapGL from "react-map-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import MarkerPopup from "./MarkerPopup";
-import city_lat_lng from "./city_lat_lng.json";
+import cityCoordinates from "./cityCoordinates";
 
 const WisconsinMapMain = ({ finalCity, tryAgain }) => {
   const [cityLatLong, setCityLatLong] = useState(null);
 
   async function getLatLong() {
-    for (let city of city_lat_lng) {
-      if (city.name === finalCity.city) {
-        setCityLatLong([city.latitude, city.longitude]);
-        break;
-      }
+    const resolvedFinalCity = await finalCity;
+    console.log(resolvedFinalCity.city);
+    if (resolvedFinalCity) {
+      let coordinatesArray = cityCoordinates[resolvedFinalCity.city];
+      setCityLatLong([coordinatesArray[0], coordinatesArray[1]]);
     }
   }
 
@@ -55,7 +55,7 @@ const WisconsinMapMain = ({ finalCity, tryAgain }) => {
           onViewportChange={(nextViewport) => setViewport(nextViewport)}
           maxBounds={maxBounds}
         >
-          {!tryAgain && finalCity && (
+          {!tryAgain && finalCity && cityLatLong && (
             <MarkerPopup
               lat={cityLatLong[0]}
               long={cityLatLong[1]}

@@ -11,6 +11,7 @@ const MainPage = () => {
   const [rankingArray, setRankingArray] = useState([null, null, null]);
   const [finalCity, setFinalCity] = useState("");
   const [tryAgain, setTryAgain] = useState(false);
+  const [cityArray, setCityArray] = useState([]);
 
   return (
     <div className="w-full h-full relative">
@@ -28,6 +29,7 @@ const MainPage = () => {
             setRankingArray={setRankingArray}
             setFinalCity={setFinalCity}
             setTryAgain={setTryAgain}
+            setCityArray={setCityArray}
           />
         )}
         {!tryAgain && finalCity && (
@@ -35,6 +37,8 @@ const MainPage = () => {
             setTryAgain={setTryAgain}
             finalCity={finalCity}
             tryAgain={tryAgain}
+            setFinalCity={setFinalCity}
+            cityArray={cityArray}
           />
         )}
         <SideMenuButton setPressed={setPressed} pressed={pressed} />

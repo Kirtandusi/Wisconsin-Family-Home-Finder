@@ -5,16 +5,15 @@ const PriceTextBox = ({ setPriceValue }) => {
   const [isValidPrice, setIsValidPrice] = useState(false);
 
   const handleInputChange = (e) => {
-    if (!isNaN(e.target.value)) {
-      setPrice(e.target.value);
-    }
-    checkValidity();
+    const newPrice = e.target.value;
+    setPrice(newPrice);
+    checkValidity(newPrice);
   };
 
-  const checkValidity = () => {
-    if (price.length > 0) {
+  const checkValidity = (value) => {
+    if (value.length > 0) {
       setIsValidPrice(true);
-      setPriceValue(price);
+      setPriceValue(value);
     } else {
       setIsValidPrice(false);
     }

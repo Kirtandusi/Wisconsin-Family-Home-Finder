@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from "react";
 import HandleJson from "./HandleJson";
 
-const Submit = ({ rankingArray, setFinalCity, setTryAgain }) => {
+const Submit = ({ rankingArray, setFinalCity, setTryAgain, setCityArray }) => {
   const [errorMessage, setErrorMessage] = useState("");
   const [buttonColor, setButtonColor] = useState("bg-primary");
 
   const checkSubmission = () => {
-    console.log(rankingArray);
-    console.log(rankingArray);
     if (rankingArray.includes(null)) {
       setErrorMessage("Please fill out each region");
+    } else if (rankingArray[3] < 22200) {
+      setErrorMessage("Please enter a budget greater than 22200.");
     } else {
       handleSubmit();
     }
@@ -17,16 +17,7 @@ const Submit = ({ rankingArray, setFinalCity, setTryAgain }) => {
 
   const handleSubmit = () => {
     setTryAgain(false);
-    setFinalCity({
-      city: "Madison",
-      average_education_index: 12.77,
-      crime_index: "489",
-      edu_index_norm: "0.72",
-      employed_percentage_norm: "0.908",
-      house_median_value: 149900,
-      population: 3346,
-      sixteen_plus_employed_percentage: "80.7",
-    });
+    HandleJson({ rankingArray, setFinalCity, setCityArray });
     //HandleJson({ rankingArray, setFinalCity });
     //setFinalCityName(() =>{});  API CALL TO BACKEND WHERE WE GET THE NUMBER 1 CITY
   };
@@ -34,7 +25,7 @@ const Submit = ({ rankingArray, setFinalCity, setTryAgain }) => {
   return (
     <>
       <div
-        className={`submit-button-container w-2/5 h-14 flex justify text-text justify-center items-center font-medium ${buttonColor} cursor-pointer`}
+        className={`submit-button-container w-2/5 h-12 flex justify text-text justify-center items-center font-medium ${buttonColor} cursor-pointer`}
         onClick={checkSubmission}
         onMouseEnter={() => setButtonColor("bg-primaryLight")}
         onMouseLeave={() => setButtonColor("bg-primary")}
@@ -42,7 +33,9 @@ const Submit = ({ rankingArray, setFinalCity, setTryAgain }) => {
         Submit
       </div>
       {errorMessage && (
-        <h2 className="text-secondary font-medium">{errorMessage}</h2>
+        <h2 className="text-secondary font-medium text-center">
+          {errorMessage}
+        </h2>
       )}
     </>
   );

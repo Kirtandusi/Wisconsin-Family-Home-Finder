@@ -1,28 +1,21 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-const HandleJson = ({ rankingArray, setFinalCity }) => {
-  const [data, setData] = useState(null);
-  const [error, setError] = useState(null);
-
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await axios.post("http://your-flask-server/api/data", {
-          user_employability: rankingArray[1],
-          user_safety: rankingArray[2],
-          user_quality: rankingArray[0],
-          user_budget: rankingArray[3],
-        });
-        let responseData = response.data;
-        setFinalCity(responseData[0]);
-      } catch (error) {
-        setError(error);
-      }
-    };
-
-    fetchData();
-  }, []); // Empty dependency array means this effect runs only once, equivalent to componentDidMount
+const HandleJson = ({ rankingArray, setFinalCity, setCityArray }) => {
+  console.log(`Ranking Array: ${rankingArray}`);
+  const parameters = {
+    user_employability: rankingArray[0],
+    user_safety: rankingArray[1],
+    user_quality: rankingArray[2],
+    user_budget: rankingArray[3],
+  };
+  axios
+    .get("http://localhost:5000/filter_data", { params: parameters })
+    .then((response) => {
+      console.log(`Response: ${JSON.stringify(response.data[0])}`);
+      setFinalCity(response.data[0]);
+      setCityArray(response.data);
+    });
 };
 
 export default HandleJson;

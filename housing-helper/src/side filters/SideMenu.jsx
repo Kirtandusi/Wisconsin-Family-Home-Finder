@@ -8,6 +8,7 @@ const SideMenu = ({
   setRankingArray,
   setFinalCity,
   setTryAgain,
+  setCityArray,
 }) => {
   const [educationRanking, setEducationRanking] = useState(null);
   const [incomeRanking, setIncomeRanking] = useState(null);
@@ -42,7 +43,7 @@ const SideMenu = ({
           />
         </div>
         <div className="flex flex-col items-center">
-          <p className="text-primary font-bold text-xl">Employabol</p>
+          <p className="text-primary font-bold text-xl">Employability</p>
           <OptionButton
             options={[1, 2, 3, 4, 5]}
             setPressed={setIncomeRanking}
@@ -56,7 +57,7 @@ const SideMenu = ({
           />
         </div>
         <div className="flex flex-col items-center">
-          <p className="text-primary font-bold text-xl">Input Budget</p>
+          <p className="text-primary font-bold text-xl">Budget</p>
           <PriceTextBox
             setPriceValue={setPriceValue}
             setTryAgain={setTryAgain}
@@ -67,6 +68,7 @@ const SideMenu = ({
         rankingArray={rankingArray}
         setFinalCity={setFinalCity}
         setTryAgain={setTryAgain}
+        setCityArray={setCityArray}
       />
     </div>
   );
